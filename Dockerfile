@@ -19,7 +19,7 @@ RUN cp /usr/src/backend-swift/.build/debug/backend-swift /usr/local/bin/
 RUN rm -rf /usr/src/backend-swift
 
 # Bind container ports to the host
-EXPOSE 8181
+EXPOSE 80
 
 # Run binary file
 RUN cd /usr/local/bin
