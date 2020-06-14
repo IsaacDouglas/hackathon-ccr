@@ -6,7 +6,7 @@ import PerfectCRUD
 
 // MARK: - Init Server
 let server = HTTPServer()
-server.serverPort = 8181
+server.serverPort = 80
 
 // MARK: - Routes
 var routes = Routes()
